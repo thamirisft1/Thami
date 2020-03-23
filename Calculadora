@@ -3,7 +3,7 @@ int main(void){
         float x=0, y=0, resultado=0;
         int op=0;
         do{
-                printf("\n\t1 - SOMA\n\t2 - SUBTRACAO\n\t3 - MULTIPLICACAO\n\t4 - DIVISAO");
+                printf("\n\t1 - SOMA\n\t2 - SUBTRACAO\n\t3 - MULTIPLICACAO\n\t4 - DIVISAO"); 
                 scanf("%i", &op);
                 printf("\nDigite o primeiro numero: ");
                 scanf("%f", &x);
