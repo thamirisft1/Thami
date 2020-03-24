@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+	float dolar;	
+	float reais;
+	float euro;
+	
+	printf("Digite o valor: ");
+	scanf("%f",&reais);
+	
+	dolar = reais * 1.9;
+	euro = reais * 3.1;
+	
+	printf("O valor em dolar eh: %.2f ",dolar);
+	
+	printf("O valor em dolar eh: %.2f",euro);
+	
+}
