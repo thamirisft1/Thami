@@ -1,0 +1,31 @@
+
+#include <tchar.h>
+#include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+ 
+//---------------------------------------------------------------------------
+ //Programa que pergunta nome, horas trabalhada, e o valor por hora e depois mostra o salario
+main(){
+
+   printf("\nInforme o nome do funcionario: ");
+	char nome[30];
+	scanf("%s", &nome);
+ 
+	printf("\nInforme a quantidade de horas trabalhadas: ");
+	float vHorasTrabalhadas;
+	scanf("%f", &vHorasTrabalhadas);
+ 
+	printf("\nInforme o valor recebido por hora (ex:5.50): ");
+	float vValorHora;
+	scanf("%f", &vValorHora);
+    
+	float vSalarioLiquido= vHorasTrabalhadas * vValorHora;
+ 
+	printf("\nO salario eh: %5.2f", (vSalarioLiquido));
+ 
+	printf("\n\n");
+	system("pause");
+}
