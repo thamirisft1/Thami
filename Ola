@@ -1,0 +1,5 @@
+#include <stdio.h>
+//programa que diz Ola
+int main (){
+printf("Ola!");
+}
