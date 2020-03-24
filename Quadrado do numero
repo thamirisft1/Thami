@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+//programa que mostra o quadrado do numero ou encerra com 0
+    int num,quad;
+	do
+    {
+        printf("Digite um numero inteiro positivo ou zero para encerrar:\n");
+        scanf("%d",&num);
+		if (num ==0){
+		printf ("\n\nVoce Digitou 0, Portanto O Programa Foi Encerrado.");
+		return 0;
+		}
+        quad=num*num;
+        printf("O quadrado de %d e %d.\n\n",num,quad);
+    }
+    while(num>0);
+
+    return 0;
+}
