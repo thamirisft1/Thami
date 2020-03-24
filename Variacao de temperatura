@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main () {
+
+   int i, qtd=0;
+
+   float temp[30], soma=0, media;
+
+   for (i=0; i<5; i++) {
+
+      printf("Informe a temperatura ao decorrer do dia:  ", i+1);
+
+      scanf("%f", &temp[i]);
+
+      soma += temp[i];
+
+   }
+
+   media = soma / 5;
+
+   for (i=0; i<30; i++) {
+
+      if (temp[i] < media)
+
+         qtd++;
+
+    
+
+   }
+
+
+
+   printf("Temperatura media eh : %.2f\n", media);
+
+
+
+   return 0;
+}
