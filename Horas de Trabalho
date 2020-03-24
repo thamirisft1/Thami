@@ -1,0 +1,38 @@
+
+#include <tchar.h>
+#include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+ 
+//---------------------------------------------------------------------------
+ //Programa que pergunta nome, horas trabalhadas no mes,quantos recebe por hora,quantas horas extra trabalhou e depois mostra o salario e o valor da hora extra trabalhada
+main(){
+   printf("\nInforme o nome do funcionario: ");
+	char nome[30];
+	scanf("%s", &nome);
+ 
+	printf("\nInforme a quantidade de horas trabalhadas: ");
+	float vHorasTrabalhadas;
+	scanf("%f", &vHorasTrabalhadas);
+ 
+	printf("\nInforme o valor recebido por hora: ");
+	float vValorHora;
+	scanf("%f", &vValorHora);
+ 
+	printf("\nInforme a quantidade de horas extras trabalhadas: ");
+	float vHorasExtra;
+	scanf("%f", &vHorasExtra);
+ 
+    	
+	float vSalarioLiquido= vHorasTrabalhadas * vValorHora;
+	float vHoras = vValorHora * 1.5 * vHorasExtra;
+	float vSalarioBruto = vHoras;
+ 
+	printf("\nO salario liquido eh: %5.f", (vSalarioLiquido));
+	printf("\nO salario bruto eh: %5.2f", (vSalarioBruto));
+ 
+	printf("\n\n");
+	system("pause");
+}
