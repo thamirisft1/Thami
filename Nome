@@ -1,0 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+//programa que mostra o nome escolhido
+int main(){
+printf("Thamiris");
+}
