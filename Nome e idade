@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+//programa que pergunta nome e idade e depois mostra o nome e  a idade do usuario
+int main(){
+ char nome[30];
+ float idade;
+printf("Digite seu nome: ");
+scanf("%s",nome);
+printf("Digite sua idade: ");
+scanf("%f",idade);
+printf("Seu nome eh %s",nome);
+printf("Sua idade eh %f",idade);
+return 0;
+}
