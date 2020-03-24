@@ -1,1 +1,1 @@
-# Thami
+# Exercicios em linguagem C
